@@ -10,3 +10,4 @@ objective = cp.Minimize(x1+x2)
 p = cp.Problem(objective, constraints)
 res = p.solve()
 #print(res)
+azsa
