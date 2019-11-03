@@ -9,4 +9,4 @@ constraints = [2*x1 + x2 >= 1, x1 + 3*x2 >= 1, x1 >= 0, x2 >= 0]
 objective = cp.Minimize(x1+x2)
 p = cp.Problem(objective, constraints)
 res = p.solve()
-print(res)
+#print(res)
